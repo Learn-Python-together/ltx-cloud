@@ -17,7 +17,7 @@ const CustomLink = ({ href, children, as, locale, ...props }): JSX.Element => {
 const localeText = (locale: string): string => {
   switch (locale) {
     case 'en':
-      return 'HP 哈利波特主题'
+      return 'ʜᴘ 哈利波特主题'
     case 'zh-CN':
       return '🇨🇳 简体中文'
     default:
